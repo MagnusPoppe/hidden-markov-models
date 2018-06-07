@@ -38,3 +38,4 @@ print("Probability of rain on day 2 using forward:  ", rain_day_2)
 E = np.array([True, True, False, True, True]) 
 print("Probability of rain on day 5 using forward:  ", forward(init, Xt, O1, O3, E, len(E)-1))
 print("Probability of rain on day 2 using backward: ", backward(Xt, O1, O3, E, 0)) 
+
